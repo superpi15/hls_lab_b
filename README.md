@@ -11,9 +11,9 @@ To run the program, put (1) xclbin file in the same folder (2) prepare an image.
 source /opt/xilinx/xrt/setup.sh                       # set Xilinx runtime environment 
 source /opt/xilinx/Vitis/2020.2/settings64.sh         # set Xilinx toolchain path
 source setup_emu.sh -s off                            # run in hardware mode 
-./rtc_alpha_tb -i vitis.jpg -s 
+./rtc_alpha_tb -i vitis.jpg -s                        # toggle option -s to select counter or clock 
 ```
 
-The execution result (user information is hidden in this image): 
+The execution on HLS04 course server (user information is hidden in this image): 
 
 ![](result.png)
