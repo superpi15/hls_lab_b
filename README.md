@@ -13,3 +13,7 @@ source /opt/xilinx/Vitis/2020.2/settings64.sh         # set Xilinx toolchain pat
 source setup_emu.sh -s off                            # run in hardware mode 
 ./rtc_alpha_tb -i vitis.jpg -s 
 ```
+
+The execution result (user information is hidden in this image): 
+
+![](result.png)
